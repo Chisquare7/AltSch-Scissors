@@ -183,6 +183,14 @@ img {
 	line-height: 5rem;
 }
 
+.underline__word {
+    padding-bottom: 12px;
+    background-image: url(/assets/images/url__short.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 45%;
+}
+
 .heading__line {
 	margin: -1em auto 0;
 	width: 10rem;
