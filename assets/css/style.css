@@ -956,6 +956,16 @@ select {
 }
 
 @media (max-width: 900px) {
+
+    .middle__nav,
+	.end__nav {
+		display: none;
+	}
+
+	#hamburger__icon {
+		display: block;
+	}
+
 	.why__flex {
 		flex-direction: column;
 		gap: 2em;
@@ -967,14 +977,6 @@ select {
 }
 
 @media (max-width: 800px) {
-	.middle__nav,
-	.end__nav {
-		display: none;
-	}
-
-	#hamburger__icon {
-		display: block;
-	}
 
 	.top__heroTop {
 		width: 100%;
