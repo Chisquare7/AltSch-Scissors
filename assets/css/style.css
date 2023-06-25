@@ -116,7 +116,6 @@ img {
 	margin: auto 0;
 	display: none;
 	cursor: pointer;
-	border: 1px solid blue;
 }
 
 #hamburger__icon div {
@@ -184,11 +183,11 @@ img {
 }
 
 .underline__word {
-    padding-bottom: 12px;
-    background-image: url(/assets/images/url__short.png);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 45%;
+	padding-bottom: 12px;
+	background-image: url(/assets/images/url__short.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 45%;
 }
 
 .heading__line {
@@ -205,7 +204,6 @@ img {
 	margin-top: 0.5em;
 	text-align: center;
 	padding-bottom: 1em;
-	border: 1px solid black;
 }
 
 .hero__subtext {
@@ -224,7 +222,6 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid green;
 }
 
 .heroBtm__btn + .heroBtm__btn {
@@ -246,14 +243,13 @@ img {
 
 .bottom__heroSect {
 	margin-top: 5em;
-	border: 1px solid green;
 }
 
 .bottom__heroSmallie {
 	position: relative;
 	margin: 0 auto;
 	width: 50%;
-	border: 1px solid coral;
+	margin-right: 13rem;
 }
 
 /* 1. Styling of Hero bottomTop section */
@@ -279,7 +275,6 @@ img {
 	display: flex;
 	align-items: center;
 	padding-right: 2em;
-	border: 1px solid green;
 }
 
 .heroLink__first {
@@ -299,7 +294,6 @@ img {
 .bottomBtm__subtext {
 	text-align: center;
 	margin-top: 1.5em;
-	border: 1px solid green;
 }
 
 .bottomBtm__text {
@@ -340,16 +334,11 @@ img {
 .first__section {
 	padding: 3.8em 0em;
 	background-color: var(--first-bg-color);
-	border: 1px solid red;
 }
 
 .grid__container {
 	display: grid;
 	grid-template-columns: 40% repeat(4, 1fr);
-}
-
-.each__grid {
-	border: 1px solid blue;
 }
 
 .each__grid + .each__grid {
@@ -396,27 +385,15 @@ img {
 .whyRight-row {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid;
 }
 
 .each__why {
 	flex-basis: 48%;
-    border: 1px solid red;
 }
 
 .whyRight-row + .whyRight-row {
 	margin-top: 4em;
 }
-
-/* .why__grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 1.75rem;
-}
-
-.grid__span {
-	grid-row: span 2;
-} */
 
 .why__heading {
 	margin-bottom: 1em;
@@ -441,7 +418,6 @@ img {
 .why__text {
 	color: var(--main-text-color);
 	font-family: "Gilroy-Medium", sans-serif;
-	/* font-size: 0.8rem; */
 	font-weight: 400;
 	line-height: 1.5rem;
 }
@@ -480,7 +456,6 @@ img {
 .price__heading {
 	width: 50%;
 	margin: 0 auto;
-	border: 1px solid;
 }
 
 .price__topic {
@@ -494,7 +469,6 @@ img {
 	width: 87%;
 	margin-left: 0.3rem;
 	text-align: center;
-	border: 1px solid green;
 }
 
 .pricing__layout {
@@ -502,7 +476,6 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid;
 }
 
 .price__firstBox {
@@ -601,14 +574,12 @@ img {
 .price__actions {
 	width: 50%;
 	margin: 0 auto 7rem;
-	border: 1px solid coral;
 }
 
 .price__buttonFlex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* border: 1px solid; */
 }
 
 .price__buttons + .price__buttons {
@@ -645,7 +616,6 @@ img {
 	padding: 5.3em 0em;
 	margin-bottom: 2.7em;
 	background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
-	border: 1px solid red;
 }
 
 .input__bgLeft {
@@ -696,7 +666,6 @@ select {
 	width: 40%;
 	background: var(--neutral-white-color);
 	border-radius: 0.75rem;
-	border: 1px solid;
 }
 
 .form__container {
@@ -766,7 +735,6 @@ select {
 	border-left-width: 5px;
 	border-left-style: solid;
 	border-image: linear-gradient(to bottom, #112232, #e1e9f0) 0 100%;
-	/* border: 1px solid; */
 }
 
 .faq__head {
@@ -776,7 +744,6 @@ select {
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 2rem;
-	/* border: 1px solid red; */
 }
 
 .faq__questions {
@@ -814,7 +781,6 @@ select {
 }
 
 .panel {
-	/* padding: 0 18px; */
 	margin-bottom: 0.5rem;
 	background-color: white;
 	display: none;
@@ -865,7 +831,6 @@ select {
 .optimize__container {
 	margin: 0 auto;
 	width: 50%;
-	border: 1px solid red;
 }
 
 .optimize__heading {
@@ -883,7 +848,6 @@ select {
 
 .optimize__action {
 	text-align: center;
-	/* border: 1px solid coral; */
 }
 
 .optimize__button {
@@ -912,7 +876,6 @@ select {
 .footer__rowOne {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	border: 1px solid blue;
 }
 
 .socials__container {
@@ -985,9 +948,6 @@ select {
 	left: 0;
 }
 
-
-
-
 @media (max-width: 900px) {
 	.why__flex {
 		flex-direction: column;
@@ -999,6 +959,7 @@ select {
 	}
 }
 
+
 @media (max-width: 800px) {
 	.middle__nav,
 	.end__nav {
@@ -1008,13 +969,10 @@ select {
 	#hamburger__icon {
 		display: block;
 	}
-}
 
-@media (max-width: 800px) {
 	.top__heroTop {
 		width: 100%;
 		margin-top: 7em;
-		border: 1px solid red;
 	}
 
 	.hero__head {
@@ -1032,19 +990,16 @@ select {
 		width: 100%;
 		margin-top: 2em;
 		text-align: justify;
-		border: 1px solid black;
 	}
 
 	.top__heroBottom {
 		width: 100%;
-		border: 1px solid green;
 	}
 
 	.bottom__heroSmallie {
 		position: relative;
 		margin: 0 auto;
 		width: 100%;
-		border: 1px solid coral;
 	}
 
 	.bottomTop__hero {
@@ -1062,7 +1017,6 @@ select {
 
 	.heroLink__flex {
 		padding-right: 0em;
-		border: 1px solid green;
 	}
 
 	.heroLink__content + .heroLink__content {
@@ -1078,7 +1032,7 @@ select {
 	.grid__container {
 		display: grid;
 		grid-template-columns: 1fr;
-		border: 1px solid;
+        gap: 1rem;
 	}
 
 	.each__grid + .each__grid {
@@ -1102,18 +1056,15 @@ select {
 	.price__heading {
 		width: 100%;
 		text-align: center;
-		border: 1px solid;
 	}
 
 	.price__context {
 		width: 95%;
-		border: 1px solid green;
 	}
 
 	.pricing__layout {
 		margin: 4.25em auto;
 		flex-direction: column;
-		border: 1px solid;
 	}
 
 	.pricing__boxes + .pricing__boxes {
@@ -1154,7 +1105,6 @@ select {
 
 	.input__container {
 		width: 90%;
-		border: 1px solid;
 	}
 
 	/* Faq section */
@@ -1168,14 +1118,12 @@ select {
 
 	.optimize__container {
 		width: 90%;
-		border: 1px solid red;
 	}
 
 	/* Footer section */
 
 	.footer__rowOne {
 		grid-template-columns: 1fr;
-		/* border: 1px solid blue; */
 	}
 
 	.socials__container {
@@ -1201,14 +1149,14 @@ select {
 
 @media (max-width: 500px) {
 	.whyRight-row {
-        display: block;
+		display: block;
 	}
 
 	.each__why {
 		flex-basis: 100%;
 	}
 
-    .each__why + .each__why {
-        margin-top: 2em;
-    }
+	.each__why + .each__why {
+		margin-top: 2em;
+	}
 }
