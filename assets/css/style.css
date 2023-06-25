@@ -38,14 +38,7 @@ img {
 }
 
 header {
-	background: radial-gradient(ellipse at top, rgb(255, 255, 240), transparent),
-    radial-gradient(
-        ellipse at left,
-        rgba(255, 255, 255, 0.827) 0%,
-        transparent
-    );
-
-	z-index: -1;
+	background: radial-gradient(rgb(255, 255, 240), transparent);
 }
 
 /* Styling of the header section */
@@ -58,12 +51,10 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 0.8em;
-	/* border: 1px solid; */
 }
 
 .navLogo__container {
 	width: 10rem;
-	/* border: 1px solid red; */
 }
 
 .middle__nav {
@@ -71,14 +62,12 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 45%;
-	/* border: 1px solid green; */
 }
 
 .middle__navContents {
 	display: flex;
 	align-self: baseline;
 	align-items: center;
-	/* border: 1px solid coral; */
 }
 
 .each__middleNav {
@@ -93,12 +82,10 @@ header {
 	display: flex;
 	align-items: center;
 	width: 20%;
-	/* border: 1px solid blue; */
 }
 
 .each__endNav {
 	margin-left: auto;
-	/* border: 1px solid greenyellow; */
 }
 
 .each__endLog {
@@ -182,7 +169,6 @@ header {
 	width: 80%;
 	margin-top: 7.4em;
 	text-align: center;
-	/* border: 1px solid red; */
 }
 
 .hero__head {
@@ -270,7 +256,7 @@ header {
 	margin-bottom: 4.75em;
 	border: 0.4px solid var(--primary-color-400);
 	border-radius: 1.5rem;
-	background-color: rgba(254, 254, 254, 0.8);
+	background: linear-gradient(to right, #e2e9f0, transparent);
 }
 
 .heroLink__content,
@@ -777,7 +763,7 @@ select {
 	width: 100%;
 	border: none;
 	outline: none;
-	/* transition: 0.4s; */
+	transition: 0.4s;
 }
 
 .plus-minus-toggle:before {
@@ -870,6 +856,7 @@ select {
 	font-weight: 500;
 	line-height: 0.75rem;
 	background-color: var(--primary-color-400);
+    cursor: pointer;
 }
 
 /* Styling of footer section */
