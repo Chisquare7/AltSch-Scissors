@@ -21,6 +21,35 @@
 								alt="hero logo"
 						/></a>
 					</div>
+					<div id="hamburger__icon" onclick="toggleMobileMenu(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+						<ul class="mobile__menu">
+							<li class="middle__navContent">
+								<a href="/" class="each__middleNav">My URLs</a>
+							</li>
+							<li class="middle__navContent">
+								<a href="/" class="each__middleNav">Features</a>
+								<img
+									class="nav__dropdown"
+									src="./assets/images/dropdown.png"
+									alt="dropdown logo"
+								/>
+							</li>
+							<li class="middle__navContent">
+								<a href="/" class="each__middleNav">Pricing</a>
+							</li>
+							<li class="middle__navContent">
+								<a href="/" class="each__middleNav">Analytics</a>
+							</li>
+							<li class="middle__navContent">
+								<a href="/" class="each__middleNav">FAQs</a>
+							</li>
+                            <li><a href="/" class="each__endLog">Log in</a></li>
+                            <li><button class="each__endBtn">Try for free</button></li>
+						</ul>
+					</div>
 					<ul class="middle__nav">
 						<li class="middle__navContent">
 							<a href="/" class="each__middleNav">My URLs</a>
@@ -525,7 +554,7 @@
 				<div class="faq__imgLeft faq-vectorLeft-3">
 					<img src="./assets/images/faq-vectorLeft-3.png" alt="faq patterns" />
 				</div>
-				<div class="faq__container">
+				<div id="faq__container">
 					<div class="faq__heading">
 						<h2 class="faq__head">FAQs</h2>
 					</div>
@@ -868,21 +897,6 @@
 			</div>
 		</footer>
 
-		<script>
-			let accordions = document.getElementsByClassName("accordion");
-			let i;
-
-			for (i = 0; i < accordions.length; i++) {
-				accordions[i].addEventListener("click", function () {
-					this.classList.toggle("active");
-					let panel = this.nextElementSibling;
-					if (panel.style.display === "block") {
-						panel.style.display = "none";
-					} else {
-						panel.style.display = "block";
-					}
-				});
-			}
-		</script>
+		<script src="./assets/index.js"></script>
 	</body>
 </html>
