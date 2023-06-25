@@ -376,7 +376,31 @@ img {
 	padding: 8.1em 0em;
 }
 
-.why__grid {
+.why__flex {
+	display: flex;
+	gap: 6em;
+}
+
+.why__left-col {
+	flex-basis: 100%;
+}
+
+.whyRight-row {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid;
+}
+
+.each__why {
+	flex-basis: 48%;
+    border: 1px solid red;
+}
+
+.whyRight-row + .whyRight-row {
+	margin-top: 4em;
+}
+
+/* .why__grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 1.75rem;
@@ -384,7 +408,7 @@ img {
 
 .grid__span {
 	grid-row: span 2;
-}
+} */
 
 .why__heading {
 	margin-bottom: 1em;
@@ -955,6 +979,18 @@ select {
 
 
 
+
+@media (max-width: 900px) {
+	.why__flex {
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	.whyRight-row + .whyRight-row {
+		margin-top: 2em;
+	}
+}
+
 @media (max-width: 800px) {
 	.middle__nav,
 	.end__nav {
@@ -965,8 +1001,6 @@ select {
 		display: block;
 	}
 }
-
-
 
 @media (max-width: 800px) {
 	.top__heroTop {
@@ -1157,8 +1191,16 @@ select {
 	}
 }
 
-@media (min-width: 600) {
-	.grid__span1, .grid__span3 {
-        grid-row: span 2;
+@media (max-width: 500px) {
+	.whyRight-row {
+        display: block;
+	}
+
+	.each__why {
+		flex-basis: 100%;
+	}
+
+    .each__why + .each__why {
+        margin-top: 2em;
     }
 }
