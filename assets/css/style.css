@@ -37,6 +37,17 @@ img {
 	color: var(--primary-color-400);
 }
 
+header {
+	background: radial-gradient(ellipse at top, rgb(255, 255, 240), transparent),
+    radial-gradient(
+        ellipse at left,
+        rgba(255, 255, 255, 0.827) 0%,
+        transparent
+    );
+
+	z-index: -1;
+}
+
 /* Styling of the header section */
 
 /* 1. Styling of Nav Container */
@@ -308,7 +319,7 @@ img {
 	top: 0;
 	bottom: 0;
 	z-index: -1;
-	margin-top: -0.8em;
+	margin-top: -1.2em;
 }
 
 /* Styling of Hero divider section */
@@ -959,7 +970,6 @@ select {
 	}
 }
 
-
 @media (max-width: 800px) {
 	.middle__nav,
 	.end__nav {
@@ -1032,7 +1042,7 @@ select {
 	.grid__container {
 		display: grid;
 		grid-template-columns: 1fr;
-        gap: 1rem;
+		gap: 1rem;
 	}
 
 	.each__grid + .each__grid {
